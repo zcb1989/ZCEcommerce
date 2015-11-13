@@ -55,7 +55,7 @@
 #pragma mark - LoginViewControllerDelegate
 - (void)loginSuccess
 {
-    NSLog(@"button Presss in Login");
+    ZCLogDebug(@"button Presss in Login");
     [self gotoHomeViewController];
 }
 

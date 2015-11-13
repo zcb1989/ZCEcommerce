@@ -17,12 +17,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+#ifdef DEBUGLOG
+    [ZCLogger startWithLogLevel:ZCLogLevelDEBUG];
+#else
+    [ZCLogger startWithLogLevel:ZCLogLevelOFF];
+#endif
+    
+    //图片缓存配置的初始化方法
+    ZCImageCacheConfig();
+    
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     ZCRootViewController *rvc = [ZCRootViewController sharedAppDelegateInstance];
     self.window.rootViewController = rvc;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
     
     return YES;
 }

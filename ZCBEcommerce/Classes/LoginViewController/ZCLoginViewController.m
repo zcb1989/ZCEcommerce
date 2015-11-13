@@ -29,7 +29,10 @@
 }
 
 - (void)btnClicked{
-    
+    ZCLogDebug(@"ZCLogDebug");
+    ZCLogInfo(@"ZCLogInfo");
+    ZCLogError(@"ZCLogError");
+    ZCLogWarn(@"ZCLogWarn");
     [self.m_delegate loginSuccess];
 }
 

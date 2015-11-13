@@ -19,7 +19,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>XMPPFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>libextobjc.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>42B52826C470B1BD6BC9FDE560833D0F</key>
+		<key>27840EF7F25B152DB2B7F164B81D4941</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>773609FAE8D7BC225A0706837667FD77</key>
+		<key>44961967E9EE26DEC22806C3C1E838C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5352D432641F0656C90741034E32F31E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C8E9BA939CA969577E3678480B5A581</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7E41CA2ECB40C640963734378302229C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>8937AD42611DD9062D71E1DD1AF77EDA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FEF4E4E417326FB6DAE9A6EA8EF21B1A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
